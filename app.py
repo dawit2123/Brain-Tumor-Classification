@@ -344,7 +344,7 @@ with col[1]:
 
       if selected_model == "Transfer Learning - Xception":
         with st.spinner('Generating prediction...'):
-          model = load_xception_model('trained_xception_model.h5')
+          model = load_xception_model('trained_xception_model.weights.h5')
           img_size = (299, 299)
       else:
         with st.spinner('Generating prediction...'):
