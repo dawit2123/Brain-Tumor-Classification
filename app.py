@@ -240,7 +240,7 @@ def generate_chat_response_gemini(user_question, user_type, model_prediction, co
 
 
 
-# Saliency map -> the more cyan the picture the more focus it requires in that area
+
 def generate_saliency_map(model, img_array, class_index, img_size):
     with tf.GradientTape() as tape:
         img_tensor = tf.convert_to_tensor(img_array)
@@ -253,19 +253,15 @@ def generate_saliency_map(model, img_array, class_index, img_size):
     gradients = tf.reduce_max(gradients, axis=-1)
     gradients = gradients.numpy().squeeze()
 
-    # Resize gradients to match original image size
     gradients = cv2.resize(gradients, img_size)
 
-    # Create a circular mask for the brain area
     center = (gradients.shape[0] // 2, gradients.shape[1] // 2)
     radius = min(center[0], center[1]) - 10
     y, x = np.ogrid[:gradients.shape[0], :gradients.shape[1]]
     mask = (x - center[0])** 2 + (y - center[1])** 2 <= radius**2
 
-    # Apply mask to gradients
     gradients = gradients * mask
 
-    # Normalize only the brain area
     brain_gradients = gradients[mask]
     if brain_gradients.max() > brain_gradients.min():
         brain_gradients = (brain_gradients - brain_gradients.min()) / (brain_gradients.max() - brain_gradients.min())
