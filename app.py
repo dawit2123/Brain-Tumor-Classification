@@ -19,7 +19,7 @@ import time
 import datetime
 import random
 
-api_key = os.getenv("GOOGLE_API_KEY")
+api_key = st.secrets("GOOGLE_API_KEY")
 genai.configure(api_key=api_key)
 print("API Key: ", api_key)
 
@@ -189,7 +189,7 @@ def generate_explanation_pixtral(img_path, model_prediction, confidence):
     Let's think step by step about this. Verify step by step.
     """
 
-  api_key = os.getenv["PIXTRAL_API_KEY"]
+  api_key = st.secrets["PIXTRAL_API_KEY"]
   img = PIL.Image.open(img_path)
 
   model = "pixtral-12b-2409"
