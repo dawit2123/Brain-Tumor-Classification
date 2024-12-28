@@ -5,7 +5,7 @@
 
 Welcome to the Brain Tumor Classification Project! This innovative machine learning initiative aims to harness the power of deep learning to enhance the early diagnosis and treatment planning of brain tumors. By developing a sophisticated model for classifying brain tumor images, my goal is to provide healthcare professionals with a reliable and efficient tool to facilitate patient care and outcomes.  
 
-👉 Check out the live application here: [Brain Tumor Classifier](https://edom-braintumorclassification-mlmodels.streamlit.app/)  
+👉 Check out the live application here: [Brain Tumor Classifier](https://brain-tumor-classification-qrdbpl2jp63jfajcodxeaz.streamlit.app/)  
 
 ---  
 
