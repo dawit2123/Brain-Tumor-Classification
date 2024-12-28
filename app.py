@@ -19,9 +19,8 @@ import time
 import datetime
 import random
 
-api_key = st.secrets("GOOGLE_API_KEY")
+api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
-print("API Key: ", api_key)
 
 output_dir = 'saliency_map'
 os.makedirs(output_dir, exist_ok=True)
