@@ -1,9 +1,12 @@
+. Abiy, [5/13/2025 15:13]
 # 🧠 Brain Tumor Classification Project 
 <img src="https://img.shields.io/badge/-Solo Project-f2336f?&style=for-the-badge&logoColor=white" />  
 
 ## 🌟 Project Vision  
 
 Welcome to the Brain Tumor Classification Project! This innovative machine learning initiative aims to harness the power of deep learning to enhance the early diagnosis and treatment planning of brain tumors. By developing a sophisticated model for classifying brain tumor images, my goal is to provide healthcare professionals with a reliable and efficient tool to facilitate patient care and outcomes.  
+
+👉 Check out the live application here: [Brain Tumor Classifier](https://brain-tumor-classification-qrdbpl2jp63jfajcodxeaz.streamlit.app/)  
 
 ---  
 
@@ -54,8 +57,9 @@ The project's workflow consists of several key steps, each designed to build tow
 
 ## 🏗 Getting Started  
 
-Ready to dive in? Follow these steps to set up and run the project on your local machine:  
+Ready to dive in? Follow these steps to set up and run the project on your local machine:
 
+. Abiy, [5/13/2025 15:13]
 1. Install the necessary libraries:  
    ```bash  
    pip install tensorflow keras numpy matplotlib
