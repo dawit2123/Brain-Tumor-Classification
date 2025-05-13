@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Classification Project  
+# 🧠 Brain Tumor Classification Project 
 <img src="https://img.shields.io/badge/-Solo Project-f2336f?&style=for-the-badge&logoColor=white" />  
 
 ## 🌟 Project Vision  
