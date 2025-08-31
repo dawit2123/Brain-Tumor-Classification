@@ -1,4 +1,4 @@
-# 🧠 CerebraDetect AI for Brain Tumors 
+# 🧠 BrainGuard MRI Classifier
 <img src="https://img.shields.io/badge/-Solo Project-f2336f?&style=for-the-badge&logoColor=white" />  
 
 ## 🌟 Project Vision  
@@ -65,4 +65,5 @@ Ready to dive in? Follow these steps to set up and run the project on your local
 3. Open the Jupyter notebook or script.
 4. Run the cells in sequence to preprocess data, build the model, and execute training.
 5. Use the trained model to predict on new MRI scans.
+
 
